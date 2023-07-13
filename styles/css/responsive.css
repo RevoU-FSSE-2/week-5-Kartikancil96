@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1366px) {
+    .Navbar .navbar-nav {
+        display: inline-block;
+    }
+
+    .Navbar .navbar-nav a {
+        color: var(--primary);
+        display: inline-block;
+        font-size: 20px;
+        margin: 0 16px;
+    }
+
+    .Navbar .navbar-nav a:hover {
+        color: #fff;
+    }
+
+    .Navbar .navbar-nav a::after {
+        content: '';
+        display: block;
+        padding-bottom: 8px;
+        border-bottom: 0.1rem solid var(--primary);
+        transform: scaleX(0);
+        transition: 0.2s linear;
+    }
+
+    .Navbar .navbar-nav a:hover::after {
+        transform: scaleX(0.5);
+    }
+}
