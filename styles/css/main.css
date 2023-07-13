@@ -119,6 +119,15 @@ body {
     transform: translateY(-50);
 }
 
+/* Zeus Section*/
+.zeus {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('/Week 5/week-5-Kartikancil96/img/halaman-depan.png');
+    background-repeat: no-repeat;
+}
+
 .wrapper i:first-child {
     left: -23px;
 }
@@ -141,11 +150,27 @@ body {
     padding-top: 50px;
 }
 
-/* Zeus Section*/
-.zeus {
-    min-height: 100vh;
+
+
+/* Footer Section*/
+
+.flex-container .distributor {
+    white-space: nowrap;
+    font-size: 0px;
     display: flex;
-    align-items: center;
-    background-image: url('../img/frontpagezeus.png');
-    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 4%;
+
+}
+
+.distributor .a img {
+    height: 110px;
+    width: 310px;
+
+}
+
+.distributor img {
+    width: 310px;
+
 }
