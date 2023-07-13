@@ -1,6 +1,13 @@
-@media only screen and (min-width: 1366px) {
-    .Navbar .navbar-nav {
+@media only screen and (min-width: 1024px) {
+
+    #hamburger {
+        display: none;
+    }
+
+    .Navbar .navbar-nav a {
         display: inline-block;
+        background-position-x: .Navbar;
+        ;
     }
 
     .Navbar .navbar-nav a {
@@ -8,6 +15,7 @@
         display: inline-block;
         font-size: 20px;
         margin: 0 16px;
+        background-position-x: .navbar-nav;
     }
 
     .Navbar .navbar-nav a:hover {

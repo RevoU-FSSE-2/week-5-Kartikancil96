@@ -34,6 +34,7 @@ body {
     box-sizing: border-box;
     padding: 1.4rem 4%;
     border-bottom: 2px solid #bbd8ed;
+    height: fit-content;
 }
 
 .Navbar .nav-item {
@@ -43,12 +44,18 @@ body {
     flex-shrink: 0;
 }
 
+.Navbar .nav-item img {
+    height: 50px;
+    width: auto;
+    margin: 0;
+}
+
 .Navbar .navbar-nav {
     position: absolute;
     top: 100%;
     right: -100%;
     background-color: rgba(255, 255, 255, 0.79);
-    width: 200px;
+    width: 250px;
     height: 100vh;
     transition: 0.3s;
 }
@@ -59,9 +66,11 @@ body {
 
 .Navbar .navbar-nav a {
     color: var(--primary);
-    display: inline-block;
-    font-size: 20px;
-    margin: 0 16px;
+    display: block;
+    font-size: 24px;
+    margin: 1.5rem;
+    padding: 8px;
+
 }
 
 .Navbar .navbar-nav a:hover {
@@ -88,4 +97,13 @@ body {
 
 .Navbar .nav-extra a:hover {
     color: #fff;
+}
+
+/* Zeus Section*/
+.zeus {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../img/frontpagezeus.png');
+    background-repeat: no-repeat;
 }
