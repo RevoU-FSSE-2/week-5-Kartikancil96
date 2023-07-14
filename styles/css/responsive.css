@@ -1,16 +1,78 @@
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: medium;
+    }
+
+    /* about Section*/
+
+    .about h2 {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        padding-left: 28.26024px;
+    }
+
+    .about .row .content {
+        padding: 0px 28.26024px;
+    }
+
+
+
+    .container .distributor {
+        white-space: nowrap;
+        font-size: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 8px 4%;
+
+    }
+
+    .distributor {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+
+    .distributor h4 {
+        font-size: 30px;
+        padding-top: 0px;
+        padding-right: 10px;
+    }
+
+    .container .distributor a img {
+        height: 60px;
+        width: 170px;
+        padding: 10px 20px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+}
+
 @media only screen and (min-width: 1024px) {
 
-    #hamburger {
+    html {
+        font-size: larger;
+    }
+
+    .hamburger {
         display: none;
     }
 
-    .Navbar .navbar-nav a {
+    .Navbar .navbar-nav-desktop {
         display: inline-block;
-        background-position-x: .Navbar;
-        ;
     }
 
-    .Navbar .navbar-nav a {
+    .Navbar .navbar-nav-desktop a {
+        display: inline-block;
+        padding-top: 15px;
+    }
+
+    .Navbar .navbar-nav-desktop a {
         color: var(--primary);
         display: inline-block;
         font-size: 20px;
@@ -18,11 +80,11 @@
         background-position-x: .navbar-nav;
     }
 
-    .Navbar .navbar-nav a:hover {
-        color: #fff;
+    .Navbar .navbar-nav-desktop a:hover {
+        color: var(--bg);
     }
 
-    .Navbar .navbar-nav a::after {
+    .Navbar .navbar-nav-desktop a::after {
         content: '';
         display: block;
         padding-bottom: 8px;
@@ -31,7 +93,153 @@
         transition: 0.2s linear;
     }
 
-    .Navbar .navbar-nav a:hover::after {
+    .Navbar .navbar-nav-desktop a:hover::after {
         transform: scaleX(0.5);
     }
+
+    .Navbar .nav-extra {
+        padding-top: 15px;
+    }
+
+    /* Zeus Section*/
+    .zeus {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-image: url('/Week 5/week-5-Kartikancil96/img/halaman-depan.png');
+        background-repeat: no-repeat;
+    }
+
+    .zeus .content h1 {
+        font-size: 2.4em;
+
+    }
+
+    /* about Section*/
+
+    .about {
+        padding: 2.5rem 4% 1.61rem;
+    }
+
+    .about .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .about .row .content {
+        flex: 1 1 35rem;
+        padding: 0 1rem;
+    }
+
+    .about .row .content h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .about .row .content p {
+        margin-bottom: 0.8rem;
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: justify;
+        line-height: 1.6;
+    }
+
+    .about .row .content .cta {
+        margin-top: 1rem;
+        display: inline-block;
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        color: #fff;
+        background-color: var(--primary);
+        border-radius: 5%;
+    }
+
+    .about .row .pakdir {
+        flex: 1 1 45rem;
+
+    }
+
+    .about .row .pakdir img {
+        width: 100%;
+    }
+
+
+
+    /* footer*/
+    .container .distributor {
+        white-space: nowrap;
+        font-size: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 8px 4%;
+
+    }
+
+    .distributor {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+
+    .distributor h4 {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-right: 30px;
+    }
+
+    .container .distributor a img {
+        height: 80px;
+        width: 200px;
+        padding: 10px 20px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+    html {
+        font-size: 150%;
+    }
+
+    .container .distributor {
+        white-space: nowrap;
+        font-size: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 8px 4%;
+
+    }
+
+    .distributor {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+
+    .distributor h4 {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-right: 30px;
+    }
+
+    .container .distributor a img {
+        height: 80px;
+        width: 200px;
+        padding: 10px 20px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+
 }

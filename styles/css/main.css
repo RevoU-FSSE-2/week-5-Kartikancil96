@@ -26,7 +26,7 @@ body {
     left: 0;
     right: 0;
     margin: 0;
-    background: rgba(255, 255, 255, 0.79);
+    background: #fff;
     text-align: center;
     justify-content: space-between;
     position: fixed;
@@ -50,12 +50,16 @@ body {
     margin: 0;
 }
 
+.Navbar .navbar-nav-desktop {
+    display: none;
+}
+
 .Navbar .navbar-nav {
     position: absolute;
     top: 100%;
     right: -100%;
     background-color: rgba(255, 255, 255, 0.79);
-    width: 250px;
+    width: 200px;
     height: 100vh;
     transition: 0.3s;
 }
@@ -74,7 +78,7 @@ body {
 }
 
 .Navbar .navbar-nav a:hover {
-    color: #fff;
+    color: var(--bg);
 }
 
 .Navbar .navbar-nav a::after {
@@ -93,6 +97,7 @@ body {
 .Navbar .nav-extra {
     align-items: center;
     justify-content: center;
+    padding-top: 15px;
 }
 
 .Navbar .nav-extra a {
@@ -102,71 +107,162 @@ body {
 }
 
 .Navbar .nav-extra a:hover {
-    color: #fff;
-}
-
-.wrapper i {
-    top: 50%;
-    height: 46px;
-    width: 46px;
-    position: absolute;
-    font-size: 1.2rem;
-    color: black;
-    text-align: center;
-    line-height: 46px;
-    background: #fff;
-    border-radius: 50%;
-    transform: translateY(-50);
+    color: var(--bg);
 }
 
 /* Zeus Section*/
+
 .zeus {
     min-height: 100vh;
     display: flex;
     align-items: center;
     background-image: url('/Week 5/week-5-Kartikancil96/img/halaman-depan.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
-.wrapper i:first-child {
-    left: -23px;
+.zeus::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(1, 1, 3, 1) 3%, rgba(255, 255, 255, 0) 25%);
 }
 
-.wrapper i:last-child {
-    right: -23px;
+.zeus .content {
+    padding: 8px 4%;
+    min-width: 20rem;
 }
 
-.wrapper .carousel {
-    white-space: nowrap;
-    font-size: 0px;
-    overflow: hidden;
+.zeus .content h1 {
+    font-size: 1.4em;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+    line-height: 1.2;
+    mix-blend-mode: difference;
 }
 
-.carousel img {
-    height: 340px;
-    width: 300px;
-    object-fit: cover;
-    margin-left: 14px;
-    padding-top: 50px;
+.zeus .content h1 span {
+    color: var(--primary);
 }
 
+.zeus .content p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    line-height: 1.4;
+    font-weight: 100;
+    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+    mix-blend-mode: difference;
+}
+
+/* About us Section*/
+.about {
+    padding: 2.5rem 4% 1.4rem;
+}
+
+.about h2 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    padding-left: 11.7708px;
+}
+
+.about h2 span {
+    color: var(--primary);
+}
+
+.about .row {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.about .row .content {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.about .row .content h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.about .row .content .cta {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: var(--primary);
+    border-radius: 5%;
+}
+
+.about .row .pakdir {
+    flex: 1 1 16rem;
+
+}
+
+.about .row .pakdir img {
+    width: 100%;
+    padding: 0 4%;
+}
+
+.about .row .pakdir figcaption {
+    font-size: 12px;
+    text-align: center;
+    padding: 8px 13%;
+}
 
 
 /* Footer Section*/
 
-.flex-container .distributor {
+footer {
+    background-color: #fff;
+}
+
+footer .distributor h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--bg);
+    font-size: 16px;
+    text-align: center;
+}
+
+.container .distributor {
     white-space: nowrap;
     font-size: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     padding: 8px 4%;
+    align-items: center;
 
 }
 
-.distributor .a img {
-    height: 110px;
-    width: 310px;
+.container .distributor a {
+    align-items: center;
+}
+
+.container .distributor a img {
+    height: 95px;
+    width: 290px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 
 }
 
