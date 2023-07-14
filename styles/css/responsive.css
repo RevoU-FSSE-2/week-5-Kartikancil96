@@ -3,17 +3,39 @@
         font-size: medium;
     }
 
+    .zeus .content h1 {
+        font-size: 1.8em;
+    }
+
+    .zeus .content p {
+        font-size: 1.4rem;
+
+    }
+
+
     /* about Section*/
 
     .about h2 {
-        font-size: 1.1rem;
+        font-size: 1.6rem;
         margin-bottom: 1rem;
         font-weight: 700;
-        padding-left: 28.26024px;
+        padding-left: 0px;
+        text-align: center;
     }
 
     .about .row .content {
         padding: 0px 28.26024px;
+    }
+
+    /* bisnis Section*/
+
+    .bisnis h2 {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .bisnis p {
+        font-size: 1rem;
     }
 
 
@@ -121,6 +143,13 @@
         padding: 2.5rem 4% 1.61rem;
     }
 
+    .about h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        padding-left: 19.2px;
+    }
+
     .about .row {
         display: flex;
         flex-direction: row;
@@ -164,6 +193,13 @@
     .about .row .pakdir img {
         width: 100%;
     }
+
+    .about .row .pakdir figcaption {
+        font-size: 14px;
+        text-align: center;
+        padding: 8px 13%;
+    }
+
 
 
 
