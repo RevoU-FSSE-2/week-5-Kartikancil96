@@ -73,6 +73,23 @@
 
     }
 
+    footer .row img {
+        width: 220px;
+        height: auto;
+        align-c: center;
+        justify-content: center;
+        padding-right: 20px;
+        padding-top: 0;
+    }
+
+    footer .row .logo-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -198,6 +215,44 @@
         font-size: 14px;
         text-align: center;
         padding: 8px 13%;
+    }
+
+
+    /* kontak*/
+
+    .kontak .row {
+        display: flex;
+        margin-top: 2rem;
+        background-color: #222;
+        flex-wrap: nowrap;
+    }
+
+    .kontak .row .maps {
+        flex: 1 1 45rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .kontak .row form {
+        flex: 1 1 45rem;
+        padding: 5rem 2rem;
+        text-align: center;
+    }
+
+    .kontak .row form .input-group {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        background-color: var(--bg);
+        border: 1px solid #eee;
+        padding-left: 2rem;
+    }
+
+    .kontak .row form .input-group input {
+        width: 100%;
+        padding: 2rem;
+        font-size: 1.7rem;
+        background: none;
     }
 
 

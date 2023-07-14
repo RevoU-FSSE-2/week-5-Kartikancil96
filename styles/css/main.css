@@ -252,6 +252,46 @@ body {
     padding: 1rem;
 }
 
+/* berita Section*/
+/* galery Section*/
+
+/* kontak Section*/
+
+.kontak .row {
+    display: flex;
+    margin-top: 2rem;
+    background-color: #222;
+    flex-wrap: wrap-reverse;
+}
+
+.kontak .row .maps {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.kontak .row form {
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.kontak .row form .input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: var(--bg);
+    border: 1px solid #eee;
+    padding-left: 2rem;
+}
+
+.kontak .row form .input-group input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.5rem;
+    background: none;
+}
+
 /* Footer Section*/
 
 footer {
@@ -282,8 +322,8 @@ footer .distributor h4 {
 }
 
 .container .distributor a img {
-    height: 95px;
-    width: 290px;
+    height: 70px;
+    width: 200px;
     padding: 10px 20px;
     align-items: center;
     justify-content: center;
@@ -294,4 +334,32 @@ footer .distributor h4 {
 .distributor img {
     width: 310px;
 
+}
+
+footer .row {
+    display: flex;
+    justify-content: center;
+}
+
+footer .row img {
+    width: 300px;
+    height: auto;
+    align-c: center;
+    justify-content: center;
+}
+
+footer .row .logo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+footer h5 {
+    color: var(--bg);
+}
+
+footer p {
+    color: var(--bg);
 }
