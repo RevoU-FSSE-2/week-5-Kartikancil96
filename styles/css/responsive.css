@@ -38,7 +38,19 @@
         font-size: 1rem;
     }
 
+    /* kontak Section*/
 
+    .kontak h2 {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .kontak p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    /* footer Section*/
 
     .container .distributor {
         white-space: nowrap;
@@ -218,7 +230,16 @@
     }
 
 
-    /* kontak*/
+    /* bisnis section*/
+
+    .bisnis .row .bisnis-card img {
+        width: 248.42px;
+        height: 196.9px;
+        padding: 0px 0%;
+        margin: 20px 1rem
+    }
+
+    /* kontak section*/
 
     .kontak .row {
         display: flex;

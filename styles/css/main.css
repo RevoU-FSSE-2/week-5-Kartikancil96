@@ -17,7 +17,6 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
     color: #fff;
-    min-height: 20000px;
 }
 
 .Navbar {
@@ -168,6 +167,8 @@ body {
     margin-bottom: 1rem;
     font-weight: 700;
     padding-left: 11.7708px;
+    object-fit: cover;
+
 }
 
 .about h2 span {
@@ -211,7 +212,7 @@ body {
 }
 
 .about .row .pakdir {
-    flex: 1 1 16rem;
+    flex: 1 1 14rem;
 
 }
 
@@ -229,7 +230,7 @@ body {
 
 /* bisnis Section*/
 .bisnis {
-    padding: 2.5rem 4% 1.4rem;
+    padding: 12rem 4% 1.4rem;
 }
 
 .bisnis h2 {
@@ -237,6 +238,7 @@ body {
     margin-bottom: 1rem;
     font-weight: 700;
     padding-left: 11.7708px;
+    object-fit: cover;
 }
 
 .bisnis h2 span {
@@ -252,10 +254,83 @@ body {
     padding: 1rem;
 }
 
+.bisnis .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.bisnis .row .bisnis-card img {
+    width: 294.42px;
+    height: 206.9px;
+    padding: 8px 4%;
+    margin: 0 1rem
+}
+
+.bisnis .row .bisnis-card figcaption {
+    text-align: center;
+    font-size: 12px;
+}
+
+
 /* berita Section*/
+
+.news {
+    padding: 2.5rem 4% 1.4rem;
+}
+
+.news h2 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    padding-left: 11.7708px;
+    object-fit: cover;
+}
+
+.news .topik img {
+    width: 294.42px;
+    height: 206.9px;
+    padding: 8px 4%;
+    margin: 0 1rem
+}
+
 /* galery Section*/
 
+.galery {
+    padding: 2.5rem 4% 1.4rem;
+}
+
+.galery .slider-wrapper .slider img {
+    width: 294.42px;
+    height: 206.9px;
+    padding: 8px 4%;
+    margin: 0 1rem object-fit:cover
+}
+
 /* kontak Section*/
+
+.kontak h2 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    padding-left: 11.7708px;
+    object-fit: cover;
+}
+
+.kontak h2 span {
+    color: var(--primary);
+}
+
+.kontak p {
+    margin-bottom: 0.8rem;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 1.4;
+    padding: 1rem;
+}
 
 .kontak .row {
     display: flex;
@@ -313,6 +388,7 @@ footer .distributor h4 {
     flex-direction: column;
     justify-content: space-around;
     padding: 8px 4%;
+    padding-top: 20px;
     align-items: center;
 
 }
@@ -353,13 +429,28 @@ footer .row .logo-footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 8px 4%;
+    padding: 20px 4%;
 }
 
 footer h5 {
     color: var(--bg);
+    padding: 8px 4%;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer ul {
+    padding: 8px 4%;
+    line-height: 25px;
 }
 
 footer p {
     color: var(--bg);
+}
+
+footer .copyright {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
 }
