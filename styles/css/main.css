@@ -13,6 +13,10 @@
     src: url(font/Poppins-Bold.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
@@ -501,6 +505,32 @@ footer h5 {
 footer ul {
     padding: 8px 4%;
     line-height: 25px;
+}
+
+footer .link {
+    text-align: left;
+    padding: 0px 4%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 0 8px;
+    font-size: 10px;
+    object-fit: cover;
+
+}
+
+footer .link {
+    justify-content: space-around;
+    line-height: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer .link a {
+    line-height: 0.8rem;
+    font-size: 12px;
+    display: inline-block;
+    text-align: left;
+
 }
 
 footer p {

@@ -110,11 +110,28 @@
     footer .row .logo-footer {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
 
     }
 
+
+    footer .link {
+        justify-content: space-around;
+        line-height: 15px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        object-fit: cover;
+    }
+
+    footer .link a {
+        line-height: 0.8rem;
+        font-size: 12px;
+        display: block;
+        text-align: left;
+
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -325,6 +342,50 @@
         align-content: center;
         object-fit: cover;
 
+        footer ul {
+            padding: 8px 4%;
+            line-height: 25px;
+        }
+
+
+        footer .row .logo-footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        footer .link {
+            text-align: left;
+            padding: 0px 0;
+            box-sizing: border-box;
+            border: 0 8px;
+            font-size: 10px;
+            object-fit: cover;
+
+        }
+
+        footer .link {
+            justify-content: space-around;
+            line-height: 15px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            padding: 0;
+
+        }
+
+
+        footer .link a {
+            line-height: 0.8rem;
+            font-size: 10px;
+            display: block;
+            text-align: left;
+            gap: 20px;
+        }
+
     }
 
 }
@@ -367,6 +428,36 @@
         align-content: center;
         object-fit: cover;
 
+    }
+
+
+    footer .row .logo-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+    footer .link {
+        justify-content: space-around;
+        line-height: 15px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 0;
+
+    }
+
+
+    footer .link a {
+        line-height: 0.8rem;
+        font-size: 10px;
+        display: block;
+        text-align: left;
+        gap: 20px;
     }
 
 
