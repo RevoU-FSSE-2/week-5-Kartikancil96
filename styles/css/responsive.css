@@ -29,6 +29,10 @@
 
     /* bisnis Section*/
 
+    .bisnis {
+        padding: 5rem 4% 1.4rem;
+    }
+
     .bisnis h2 {
         text-align: center;
         font-size: 1.6rem;
@@ -36,6 +40,14 @@
 
     .bisnis p {
         font-size: 1rem;
+    }
+
+    /* news section*/
+    .news .topik img {
+        width: 100%;
+        height: auto;
+        padding: 8px 4%;
+        object-fit: cover;
     }
 
     /* kontak Section*/
