@@ -88,12 +88,13 @@
     }
 
     .container .distributor a img {
-        height: 60px;
-        width: 170px;
+        height: auto;
+        width: 100%;
         padding: 10px 20px;
         align-items: center;
         justify-content: center;
         align-content: center;
+        object-fit: cover;
 
     }
 
@@ -316,12 +317,13 @@
     }
 
     .container .distributor a img {
-        height: 80px;
-        width: 200px;
+        height: auto;
+        width: 100%;
         padding: 10px 20px;
         align-items: center;
         justify-content: center;
         align-content: center;
+        object-fit: cover;
 
     }
 
@@ -339,6 +341,7 @@
         flex-direction: row;
         justify-content: center;
         padding: 8px 4%;
+        object-fit: cover;
 
     }
 
@@ -356,12 +359,13 @@
     }
 
     .container .distributor a img {
-        height: 80px;
-        width: 200px;
+        height: auto;
+        width: 100%;
         padding: 10px 20px;
         align-items: center;
         justify-content: center;
         align-content: center;
+        object-fit: cover;
 
     }
 
